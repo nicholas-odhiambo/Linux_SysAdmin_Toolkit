@@ -5,8 +5,8 @@ This reposistory serves as both a toolbox for daily operation and learning portf
 ## Repository structure  
 -`monitoring/` -> scripts for checking disk, CPU, memeory   services 
 `backups/` -> Backup automation scripts
--`user_management` -> User and Group Management utilities  
--`networking`-> Network Diagnostic and firewall helpers
+-`user_management/` -> User and Group Management utilities  
+-`networking/`-> Network Diagnostic and firewall helpers
 -`docs/` -> Documentation and Server setup guides 
 
 ## Getting Started 
