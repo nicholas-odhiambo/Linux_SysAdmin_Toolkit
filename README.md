@@ -1,5 +1,5 @@
 # Linux_SysAdmin_Toolkit
-A collection of linux system administartion scripts, automation tools and documentation.
+A collection of linux system administartion scripts, automation tools .d documentation.
 This reposistory serves as both a toolbox for daily operation and learning portfolio. 
 
 ## Repository structure  
@@ -13,3 +13,11 @@ This reposistory serves as both a toolbox for daily operation and learning portf
 1. Clone the repo:
    ```bash
    git clone git@github.com:your_username/linux_systemadmin_toolkit.git
+
+2. Make scripts executable
+   ```bash
+   chmod +x scriptname.sh
+
+3. Run Script
+   ```bash
+   ./foldername/scriptname.sh 
