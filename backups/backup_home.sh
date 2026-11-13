@@ -1,12 +1,12 @@
 #!/bin/bash
-#Description: BackUp the home_dir to /backups
+#Description: BackUp the Documents_dir to /backups
 
 # backup with timestamps 
 
 BACKUP_DIR="$HOME/backups"
-SRC="/home"
+SRC="/home/$USER/Documents"
 DATE=$(date +%F_%H-%M-%S)
-DEST="$BACKUP_DIR/home_backup_$DATE.tar.gz"
+DEST="$BACKUP_DIR/docs_backup_$DATE.tar.gz"
 
 # Create the backup dir
 
